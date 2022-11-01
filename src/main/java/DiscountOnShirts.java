@@ -21,7 +21,7 @@ public class DiscountOnShirts {
         System.out.println("Цена рубашек (без скидки), которые необходимо докупить для получения скидки: "
                 + priceShirtsNeedToAddForDiscount);
 
-        final double persentDiscount = 0.25;
+        final double persentDiscount = 0.3;
         System.out.println("Процент скидки: " + persentDiscount * 100);
 
         final double priceAllShirtsWithDiscount = (needToBuyShirtsForDiscount * PriceShirtWithoutDiscount)
